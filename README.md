@@ -1,2 +1,2 @@
 # Guess-The-Number-JS-
-Guess the given range of numbers by the computer
+Guess one corect number by computer from the given range of numbers 
