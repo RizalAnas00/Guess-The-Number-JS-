@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess The Number</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Jersey+10&family=Tiny5&display=swap');
+    </style>
+</head>
+<body>
+    <h1 id="title">Guess The Number !</h1>
+
+    <h2>The Rule is SO Simple... Guess the number between <span id="satu">1</span> and <span id="duaratus"> 200</span></h2>
+
+    <div id="guess-box">
+
+        <div id="comp-box">
+            <p > Computer's Number is :</p><span id="comp-number"> 199 </span>
+        </div>
+
+        <div id="user-box">
+            <p id="user-guess"> Your Guess is : </p>
+            <input type="text" id="guess-input">
+            <button id="guess-button">Guess</button>
+        </div>  
+
+        <p id="message"></p>
+        <p id="countdown"></p>
+
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>

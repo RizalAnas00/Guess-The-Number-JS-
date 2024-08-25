@@ -1,0 +1,158 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #277BC0;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    color: #FFF4CF;
+    font-family: 'Tiny5', sans-serif;
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    color: #FFB200;
+}
+
+#guess-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #FFB200;
+    color: #FFF4CF;
+}
+
+#comp-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-bottom: 20px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #FFCB42;
+    color: #277BC0;
+    font-family: 'Arial', helvetica;
+    font-weight: bold;
+}
+
+#comp-box span {
+    font-size: 40px;
+    color: #277BC0;
+    font-weight: light;
+    font-family: 'copperplate', fantasy;
+}
+
+#user-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: #FFF4CF;
+}
+
+#user-box p {
+    font-size: 25px;
+    color: #E69A00;
+    font-weight: bold;
+}
+
+#user-box input {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #E69A00;
+    background-color: #FFF4CF;
+    color: #DD761C;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#user-box button {
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #E69A00;
+    background-color: #E69A00;
+    color: #FFF4CF;
+    font-size: 20px;
+
+    /* Subtle neon glow effect with reduced intensity */
+    box-shadow: 0 0 3px #E69A00,       /* Main glow */
+                0 0 5px #E69A00,       /* Outer glow */
+                0 0 8px rgba(255, 178, 0, 0.4),  /* Softer glow */
+                0 0 12px rgba(255, 178, 0, 0.2); /* Faded outer glow */
+    
+    transition: box-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+#user-box button:hover {
+    /* Slightly enhance the glow on hover */
+    box-shadow: 0 0 5px #FFB200, 
+                0 0 10px #FFB200, 
+                0 0 15px rgba(255, 178, 0, 0.7), 
+                0 0 20px rgba(255, 178, 0, 0.5);
+}
+
+#countdown {
+    font-size: 45px;
+    color: #FFF4CF;
+    font-weight: bold;
+    margin: 10px;
+    padding: 5px;
+}
+
+#message {
+    font-size: 25px;
+    color: #1F68A3;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
+
+#satu {
+    color: #FFF4CF;
+    font-weight: bold;
+    font-size: 25px;
+    /* font-family:'Tiny5', sans-serif; */
+}
+
+#duaratus {
+    color: #FFF4CF;
+    font-weight: bold;
+    font-size: 25px;
+    /* font-family:'Tiny5', sans-serif; */
+}
